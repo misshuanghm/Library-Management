@@ -21,7 +21,7 @@ public class BookTest {
 //			}
 			
 			//界面
-			System.out.println("Welcome to My Mini Library Management System!");
+			System.out.println("Welcome to VMA Mini Library Management System!");
 			System.out.println("------------------------------------------------------");
 			System.out.println("-> 1.Check Book");
 			System.out.println("-> 2.Add Book");
@@ -45,6 +45,8 @@ public class BookTest {
 					int exit = sc.nextInt();
 					if(exit==0) {
 						flag = false;
+					}else {
+						flag = true;
 					}
 				}else {
 					book.Manage(choice);
